@@ -1,0 +1,150 @@
+* {
+   margin: 0;
+   padding: 0; 
+   outline: 0;
+   border: 0;
+   appearance: 0;
+   list-style: none;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Montserrat', sans-serif;
+   line-height: 1.6;
+   /* color:rgba(242, 242, 254, 0.7); */
+   background: whitesmoke ;
+   overflow-x: hidden;
+   font-size: 1rem;
+}
+
+.main-container {
+   width: 78% ;
+   max-width: 1800px;
+   margin-inline: auto ;
+   margin-top: 2rem;
+   display: flex;
+   flex-direction: column;
+   padding-left: 15%;
+   /* align-items: center; */
+   /* background-color: red;  */
+}
+
+
+
+.search-bar {
+   width: 700px ;
+   height: 45px;
+   padding-left: 1rem;
+   border-radius: 0.3rem;
+   border-bottom: 1px solid black;
+}
+
+.btn {
+   display: inline;
+   padding: 0.6rem 1.2rem;
+   background-color: lightgreen;
+   border-radius: 0.7rem ;
+   cursor: pointer;
+}
+
+
+.results-section {
+   /* text-align: left; */
+   background-color: lightgray ;
+   width: 700px;
+   display: none;
+}
+
+.results-section ul li{
+   /* border-bottom: 1px solid black; */
+   font-size: 0.8rem;
+   display: flex;
+   height: 60px;
+   gap: 1.5rem;
+   align-items: center;
+   padding: 0.5rem;
+
+   
+}
+
+
+
+.results-section ul li:hover {
+   font-size: 1rem;
+   transition: all ease 200ms;
+}
+
+
+.results-section ul li img {
+   height: 40px;
+   width: 30px;
+   overflow: hidden;
+}
+
+
+.results-section ul li .product h4{
+   color: lightskyblue;
+   font-size: 0.7rem;
+   cursor: pointer;
+}
+
+.results-section ul li .product h3{
+   font-weight: 100;
+}
+
+.results-section ul li .product {
+   line-height: 2;
+}
+
+.container {
+   max-width: 500px;
+   margin: 50px auto;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.form-group {
+   margin-bottom: 20px;
+}
+
+.form-group label {
+   display: block;
+   margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="file"] {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+
+.form-group input[type="file"] {
+   border: none;
+   outline: none;
+}
+
+.form-group button {
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+   transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+   background-color: #0056b3;
+}
